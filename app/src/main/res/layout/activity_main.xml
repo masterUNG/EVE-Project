@@ -15,7 +15,7 @@
 
     </LinearLayout>
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText2"
@@ -73,7 +73,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton7"
-        android:onClick="clickCalender"
         android:src="@drawable/contract11"
         android:layout_alignTop="@+id/imageButton5"
         android:layout_alignLeft="@+id/textView7"
@@ -83,7 +82,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton"
-        android:onClick="clickAdd"
         android:src="@drawable/add118"
         android:layout_marginLeft="46dp"
         android:layout_marginStart="46dp"
@@ -149,7 +147,6 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="clickMyCalendar"
         android:id="@+id/imageButton8"
         android:src="@drawable/calendar70"
         android:layout_gravity="center_horizontal"
@@ -176,7 +173,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageButton6"
         android:src="@drawable/book135"
-        android:onClick="clickReport"
         android:layout_below="@+id/linearLayout11"
         android:layout_toLeftOf="@+id/imageButton5"
         android:layout_toEndOf="@+id/imageButton7"
@@ -186,7 +182,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton5"
-        android:onClick="clickHistory"
         android:src="@drawable/verification5"
         android:layout_gravity="right"
         android:layout_below="@+id/textView3"
